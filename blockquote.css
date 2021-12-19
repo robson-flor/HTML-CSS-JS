@@ -1,0 +1,11 @@
+cite {
+  display: block;
+  padding-bottom: 5px;
+  padding-left: 195px;
+  border: 1px solid #c32;
+  margin: 10px;
+  border-radius: 25px;
+}
+blockquote{
+  color: #008;
+}

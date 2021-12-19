@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dfn.css">
+  <script src="dnfAbbrDialog.js"></script>
+  <title>dfn</title>
+</head>
+<body>
+
+  <!-- Explicação da tag dfn -->
+  <p>A tag &lsaquo;dnf&rsaquo; vai representar a instância de uma definição.</p>
+  <p>O &lsaquo;dnf&rsaquo; não vai representar a explicação do termo, ele vai marcar o termo e a explicação deve estar no mesmo bloco que dfn foi inserido.</p>
+
+  <!-- Exemplo prático dfn -->
+  <p><dfn title="Linguagem de marcação para a web">HTML</dfn>  Hypertext Markup Language</p>
+  <p><abbr title="folhas de estilos">CSS</abbr> Cascading Style Sheets</p>
+  <p>Este parágrafo explica sobre:<dfn><abbr title="Definição"> dfn </abbr>definição é o significado da sigla dfn.</dfn></p>
+
+  <!-- abbr dentro de dfn -->
+  <p>Na linguagem musical, o termo <dfn><abbr title="Da capo">D.C</abbr></dfn> significa que um determinado trecho musical
+    deve ser repetido desde o seu começo e tem origem na expressão italiana <span lang="it"><i>da capo</i></span> que
+    significa da cabeça ou do início.</p>
+
+  <!-- dialog -->
+    <button onclick="abrirDialog()">Abrir</button>
+    <button onclick="fecharDialog()">Fechar</button>
+    <dialog id="d0" open>
+      <p id="p">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint harum recusandae tenetur. Perferendis quae, voluptatibus aliquid minus autem maxime corporis molestiae officia quisquam, ea delectus, molestias ipsum dolor iste sequi?
+      </p>
+ 
+    </dialog>
+
+</body>
+</html>

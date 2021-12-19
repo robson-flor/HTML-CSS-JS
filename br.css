@@ -1,0 +1,25 @@
+body{
+  background-color: rgba(103, 128, 134, 0.233);
+}
+.endereco{
+  border: 1px solid #008;
+  padding-left: 8px;
+  width: 400px;
+  background-color: antiquewhite;
+}
+blockquote{
+  border: 1px solid #008;
+  padding-left: 8px;
+  width: 350px;
+  height: auto;
+  text-align: center;
+  background-color: antiquewhite;
+}
+blockquote p{
+  line-height: 2;
+}
+input{
+  display: flex;
+  justify-content: right;
+  width: 50%;
+}

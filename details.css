@@ -1,0 +1,27 @@
+details[open] summary::-webkit-details-marker{
+  color: rgb(0, 47, 255);
+}
+#articleForaDetails{
+  background-color: #ddd;
+}
+summary{
+  background-color: rgb(192, 241, 113);
+}
+
+/* summary{
+  list-style-type: '+';
+}
+details[open] summary{
+  list-style-type: '-';
+  ----
+  transforma a seta em sinal de + e de -
+  ----
+} */
+
+/* 
+=================================
+  summary::-webkit-details-marker{
+  color: red;
+}
+=================================
+este comando deveria transformar somente a seta */

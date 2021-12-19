@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  background-color: #eee;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+.main{
+  border: 2px dotted rgb(241, 9, 9);
+  margin-bottom: 5px;
+  margin: auto;
+  width: 960px;
+}
+#cabecalho, #corpo, #rodape{
+  border: 2px dotted rgb(35, 252, 6);
+  margin-bottom: 5px;
+}
+#cabecalho{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+#corpo{
+  position: absolute;
+  top: 100px;
+  left: 0;  
+  width: 100%;
+  height: 570px;
+}
+#caixa1, #caixa2, #caixa3{
+  width: 150px;
+  height: 70px;
+}
+#caixa1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f00;
+  color: #fff;
+  border: 1px solid #000;
+}
+#caixa2{
+  /* RELATIVE É POSICIONADO SEMPRE EM RELAÇÃO AO ELEMENTO PAI */
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #0f0;
+  color: #fff;
+  border: 1px solid #000;
+}
+#caixa3{
+  /* O ELEMENTO VAI FICAR EM UMA POSIÇÃO FIXA NA JANELA - EM RELAÇÃO A JANELA - NÃO AO ELEMENTO PAI  */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #00f;
+  color: #fff;
+  border: 1px solid #000;
+  z-index: -1;
+  /* QUANTO MAIOR O Z-INDEX MAIS NA FRENTE DA CAMADA ESSE ELEMENTO VAI FICAR  */
+}
+#rodape{
+  /* POSITION ABSOLUTE POSICIONA O ELEMENTO DE ACORDO COM A JANELA DESDE QUE O SEU ELEMENTO PAI SEJA STATIC - SE O SEU ELEMENTO PAI NÃO FOR STATIC ELE É POSICIONADO EM RELAÇÃO AO ELEMENTO PAI. */
+position: absolute;
+top: 670px;
+left: 0;
+width: 100%;
+height: 90px;
+background-color: #000;
+color: #fff;
+}
+#wpp{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
