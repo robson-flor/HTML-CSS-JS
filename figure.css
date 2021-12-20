@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(157, 189, 144);
+}
+img {
+  width: 33vw;
+  height: auto;
+  border: 2px solid #f08;
+}
+figcaption{
+  width: 33vw;
+  color: blue;
+  font-family: sans-serif;
+  border: 2px solid #f08;
+}

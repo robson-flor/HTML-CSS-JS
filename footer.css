@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.rodapedapagina{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.articleRodape{
+  border: 1px solid #fff;
+  width: 33.33%;
+  margin: 4px;
+}
+.img_rod{
+  width: inherit;
+  height: 50px;
+}
