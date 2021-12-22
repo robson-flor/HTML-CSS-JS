@@ -1,0 +1,7 @@
+h1{
+  color: #00f;
+}
+h2{
+  color: #f00;
+  font-size: 32px; /*h2 formatado para ter o mesmo tamanho do h1 - mas a semântica será sempre a mesma.*/
+}
