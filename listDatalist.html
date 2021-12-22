@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="listDatalist.css">
+  <title>Document</title>
+</head>
+
+
+<!-- Caixa interativa - faz o submit do value. -->
+
+<body>
+
+  <form name="f_cadastro" action="#" method="get">
+
+    <input list="f_transportes" name="f_cor_transporte" id="">
+
+    <datalist id="f_cores">
+      <option value="red">Vermelho</option>
+      <option value="green">Verde</option>
+      <option value="blue">Azul</option>
+      <option value="yellow">Amarelo</option>
+      <option value="white">Branco</option>
+      <option value="black">Preto</option>
+    </datalist>
+
+<!-- Basta selecionar qual conjunto de dados eu quero usar com a minha lista - atribuindo o id do datalist no input list= "..." -->
+
+    <datalist id="f_transportes">
+      <option value="01">Carro</option>
+      <option value="02">Moto</option>
+      <option value="03">Avião</option>
+      <option value="04">Navio</option>
+      <option value="05">Bicicleta</option>
+      <option value="06">Patinete</option>
+    </datalist>
+
+
+    <input class="quebra" type="submit" name="f_enviar" id="">
+
+  </form>
+
+</body>
+
+</html>
