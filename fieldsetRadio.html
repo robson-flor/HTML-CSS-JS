@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="fieldset.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Permite uma organização maior do formulário -->
+
+  <!-- A tag fieldset representa um conjunto de controles de formulário.
+        Permite agrupar determinados conjuntos em um grupo e tratar isso de forma individual.-->
+
+        <form action="#" name="f_cadastro" method="get">
+          <fieldset disabled>
+            <legend>Dados 1</legend>
+            <label for="f_nome">Nome:</label>
+            <input type="text" name="f_nome" id="f_nome" class="quebra">
+            <br>
+            <label for="f_telefone">Telefone:</label>
+            <input type="tel" name="f_telefone" id="f_telefone" class="quebra" placeholder="(xx)9xxxx-xxxx">
+          </fieldset>
+          <!-- Exemplo de placeholder para telefone -->
+          
+          <!-- fieldset possui o atributo boolean -disabled- que desabilita campos do formulário / possui o filho direto -legend- que insere a legenda nesse fieldset.
+          
+          Agrupei itens do formulário em grupos individuais por categorias-->
+
+          <br>
+          <fieldset disabled>
+            <legend>Dados 2</legend>
+            <label for="f_carro">Possui carro?</label><br>
+            <input type="radio" name="f_carro" id="f_carro" value="s" checked>Sim <br>
+            <input type="radio" name="f_carro" id="f_carro" value="n">Não<br> <br>
+            
+            <label for="f_carro">Possui casa própria?</label><br>
+            <input type="radio" name="f_casa" id="f_casa" value="s" checked>Sim <br>
+            <input type="radio" name="f_casa" id="f_casa" value="n">Não<br><br>
+            <input type="submit" name="f_enviar" id="f_enviar">
+          </fieldset>
+         
+        
+
+
+
+        </form>
+</body>
+</html>
