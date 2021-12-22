@@ -1,0 +1,21 @@
+form{
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #eee;
+  width: 40vw;
+  height: auto;
+}
+.quebra{
+  display: block;
+  margin: 8px;
+}
+.espaco{
+  padding: 0;
+}
+#dv_btns{
+  display: flex;
+}
+.esp_topo{
+  margin-top: 15px;
+}

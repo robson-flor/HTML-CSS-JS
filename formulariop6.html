@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulariop6.css">
+  <title>Formulário P6</title>
+</head>
+
+<body>
+
+  <!-- color, email, image -->
+  <form name="f_cadastro" action="#" method="get">
+    <label class="quebra" for="cor">Selecione uma cor:</label>
+    <input type="color" name="f_cor">
+
+    <label class="quebra" for="">Digite seu email:</label>
+    <input type="email" name="f_email">
+
+    <label class="quebra top" for="">Imagem:</label>
+    <input class="top" type="image" src="logo.png" name="f_img">
+
+    <input class="quebra top" type="submit" name="submit" id="" value="Submeter">
+    <hr><br><br>
+  </form>
+  <!-- --------------------------------------------------------------------------------------------------------------- -->
+  <!--  tel (pattern e placeholder)
+        number (step, max, min)
+        search() -->
+  <form name="f_cadastro" action="#" method="get" enctype="multipart/form-data">
+    <label class="quebra" for="">Telefone:</label>
+    <input type="tel" name="f_tel" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx" id="">
+
+    <label class="quebra" for="">Senha:</label>
+    <input type="password" name="f_senha" id="" pattern="[a-zA-Z0-9]{5}" required>
+
+    <label class="quebra" for="">Escolha um número</label>
+    <input type="number" name="f_numero" step="" min="0" max="10" id="">
+
+    <label class="quebra" for="">Pesquisa:</label>
+    <input type="search" name="f_pesquisa" id="">
+
+    <input class="quebra" type="submit" name="" id="">
+  </form>
+<hr>
+  <!-- FORMULARIO P8 - INPUT FILE , INPUT URL -->
+  <form name="f_cadastro" action="#" method="get" enctype="multipart/form-data">
+    <!-- FILE
+          multiple (boolean)
+          accept=".doc,.docx,"
+          accept="application/msword"
+          accept=".jpg,.gif,.png"
+          accept="image/jpg,image/gif,image/png"
+      url
+          placeholder="https://cfbcursos.com.br"
+          pattern="http://.*" -->
+    <label class="quebra" for="arquivos">Selecione o arquivo:</label>
+    <!-- como eu só especifiquei extensoes de arquivos de imagens, quando eu clico para escolher arquivos somente me aparecem arquivos de imagem. -->
+    <input type="file" name="f_arquivo" id="" accept=".jpg,.gif,.png" multiple>
+
+    <label class="quebra" for="">Digite o URL:</label>
+    <input type="url" name="f_url" id="" pattern="https://.*" placeholder="https://www.google.com">
+
+    <input class="quebra" type="submit" name="" id="">
+  </form>
+</body>
+
+</html>

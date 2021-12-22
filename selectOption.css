@@ -1,0 +1,9 @@
+form{
+  border: 1px solid #000;
+  width: 33vw;
+  padding: 15px;
+}
+.quebra{
+  display: block;
+  margin-bottom: 10px;
+}

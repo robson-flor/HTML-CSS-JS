@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="formulario.css">
+  <title>Formulário - COMPLETO</title>
+</head>
+<body>
+
+<h1>FORMULÁRIO - COMPLETO</h1>
+
+<!-- FORMULÁRIO -->
+<!-- TYPE PASSWORD -->
+  
+    <form name="f_cadastro" action="#" method="get" enctype="">
+      <label class="quebra" for="f_hora">Hora:</label>
+      <input class="quebra" type="time" name="f_hora" min="09:00" max="17:00">
+
+      <label class="quebra" for="f_data">Data:</label>
+      <input class="quebra" type="date" name="f_date" id="" min="21-12-2021" max="21-12-2022">
+
+      <label class="quebra" for="f_data_hora">Data e Hora:</label>
+      <input class="quebra" type="datetime-local" name="f_data_hora" id="" required>
+
+      <input class="quebra" type="submit" name="f_hora" id="" value="Enviar-me" >
+      <hr>
+      <label for="f_cadastro">Username:</label>
+      <input class="espaco quebra" type="text" name="f_nome" value="" maxlength="20" size="30">
+      <label for="f_cadastro">Password:</label>
+      <input class="espaco quebra" type="password" name="f_senha" maxlength="10" size="15">
+      
+      <input class="esp_topo" type="submit" value="Submit">
+      
+      <input class="esp_topo" type="reset" value="Resetar">
+     
+      <input class="esp_topo" type="button" value="script">
+    </form>
+  
+      
+<!-- TYPE CHECKBOX -->
+        <form name="e_favoritos" action="#" method="get" enctype="">
+          <label for="e_favoritos" class="quebra">Esportes Favoritos:</label>
+          <input type="checkbox" name="f_fut" value="on">Futebol
+          <input type="checkbox" name="f_bas" value="on">Basket
+          <input type="checkbox" name="f_nat" value="on" checked>Natação
+          <!-- <input class="quebra esp_topo" type="submit" name="f_enviar" value="Enviar"> -->
+
+          <label  class="quebra" for="">Possui carro?</label>
+          <input type="radio" name="f_carro" value="s" checked>Sim
+          <input type="radio" name="f_carro" value="n">Não
+        </form>
+
+        <!-- FORM MONTH, WEEK, HIDDEN -->
+        <form action="#" method="get" enctype="" name="date_time">
+
+          <label class="quebra" for="f_mes">Mês</label>
+          <input type="month" name="f_mes" id="">
+
+          <label class="quebra" for="f_semana">Semana:</label>
+          <input type="week" name="f_semana" id="">
+
+          <input type="hidden" name="canal" id="" value="cfb-cursos">
+          <input type="hidden" name="curso" id="" value="HTML5">
+
+        </form>
+      
+
+</body>
+</html>
