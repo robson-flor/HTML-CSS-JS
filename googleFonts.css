@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap');
+/*importando fonte para o CSS - especificando ela no .fonte_p*/
+body{
+  background-color: rgb(94, 150, 224);
+}
+li{
+  font-family: 'Yuji Hentaigana Akari', cursive;
+  list-style: none;
+  color: aquamarine;
+}
+p{
+  font-family: 'Imperial Script', cursive;
+  font-size: 32px;
+  color: rgb(238, 255, 0);
+  border: 2px rgb(253, 249, 0) dotted;
+  border-radius: 15px;
+  padding-left: 15px;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+h1, h2{
+  font-family: 'Rock 3D', cursive;
+  color: rgb(168, 3, 3);
+}
+hr{
+  border: 1px black solid;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.fonte_p{
+  font-family: 'Swanky and Moo Moo', cursive;
+}
