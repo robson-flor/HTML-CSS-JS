@@ -1,4 +1,10 @@
 iframe{
   width: 500px;
-  height: 500px;
+  height: 300px;
+  border: none;
+}
+#banner{
+  width: 500px;
+  height: 100px;
+  border: none;
 }
