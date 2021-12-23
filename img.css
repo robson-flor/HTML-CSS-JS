@@ -1,0 +1,8 @@
+img{
+  display: block;
+  width: 20vw;
+}
+img:hover{
+  width: 45vw;
+  height: 65vh;
+}
