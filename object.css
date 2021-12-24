@@ -1,0 +1,8 @@
+body{
+  background-color: rgb(91, 143, 138);
+}
+object{
+  display: flex;
+  margin: 0 auto;
+  border: 5px solid #4ad;
+}
