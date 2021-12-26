@@ -3,6 +3,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 html{
   scroll-behavior: smooth;
@@ -91,4 +92,19 @@ article{
 [data-anima].animacao{
   opacity: 1;
   transform: translate3d(0,0,0);
+}
+/*PARALLAX*/
+.parallax{
+  background-attachment: fixed;
+  background-size: cover; /*ajusta a imagem ao tamanho da div*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform: scale(1.05);
+}
+.p1{
+  background-image: url('para5.jpg');
+ 
+}
+.p2{
+  background-image: url('para3.jpg');
 }
