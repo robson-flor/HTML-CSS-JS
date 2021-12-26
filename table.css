@@ -1,0 +1,18 @@
+table, th, td{
+  border: 1px solid #000;
+}
+table{
+  border-collapse: collapse; /*tira o espaçamento da borda da tabela*/
+}
+thead{
+  color: #0a0;
+  background-color: #cdcdcd;
+}
+tbody{
+  color: #00f;
+  background-color:rgb(9, 255, 0);
+}
+tfoot{
+  color: #f00;
+  background-color:#f8f409 ;
+}
