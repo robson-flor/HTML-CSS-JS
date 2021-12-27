@@ -108,3 +108,28 @@ article{
 .p2{
   background-image: url('para3.jpg');
 }
+
+/*CURSOS*/
+.containerCursos{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mini{
+  width: 49%;
+  padding: 5px;
+  cursor: pointer;
+}
+/*MODAL*/
+.janelaModal{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 100px;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
+}
