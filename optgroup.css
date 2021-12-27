@@ -1,0 +1,19 @@
+body{
+  background-color: rgba(94, 144, 156, 0.788);
+}
+select{
+  border: 2px solid rgba(248, 203, 54, 0.849);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(235, 130, 61, 0.671);
+  
+}
+optgroup{
+  color: rgba(49, 46, 46, 0.781);
+  font-family: sans-serif, monospace;
+  
+}
+option{
+  color: rgba(54, 121, 10, 0.89);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

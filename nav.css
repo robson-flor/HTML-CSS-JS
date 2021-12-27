@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+}
+nav{
+  background-color: rgb(56, 55, 55);
+  padding: 20px;
+}
+nav a{
+  color: azure;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover{
+  color: yellowgreen;
+}

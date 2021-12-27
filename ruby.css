@@ -1,0 +1,14 @@
+#bzs{
+  background-color: rgb(161, 179, 153);
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  width: 100px;
+}
+#bz{
+   font-size: 40px;
+  background-color: rgb(129, 106, 76);
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!--tag <output>
+—
+Representa, recebe uma saída, geralmente é um elemento usado para cálculos, para receber o resultado de cálculos de outros componentes.
+Muito usado dentro de formulário. -  manipulado via js -->
+  
+  <form action="" oninput="res.value=parseInt(a.value)+parseInt(b.value)">
+    0<input type="range" name="" id="a" value="50">100
+    <p>+</p>
+    <input type="number" name="" id="b" value="0">
+    <p>=</p>
+    <output name="res" for="a b"></output>
+  </form>
+<br><br><br><br><hr><br><br>
+
+  <form action="" oninput="res1.value=parseInt(aa.value)+parseInt(ab.value)">
+    <input type="range" name="" id="aa" value="0">
+    0<input type="range" name="" id="ab" value="0">
+    <output name="res1" for="aa ab"></output>
+  </form>
+<br><br><br>
+  <hr><br><br>
+
+
+</body>
+</html>

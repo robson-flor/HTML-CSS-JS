@@ -1,0 +1,20 @@
+/* ul{
+  list-style-type: upper-roman;
+}
+*/
+body{
+  background-color: #000;
+}
+ul{
+  list-style-image: url('favicon-16x16.png');
+  border: 5px solid rgb(223, 248, 0);
+  background-color: antiquewhite;
+  color: brown;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 33vw;
+  height: 40vh;
+  margin: 0 30%;
+}
+li{
+  margin: 8px 40%;
+}

@@ -5,18 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="iframe.css">
+  <script src="iframe.js"></script>
   <title>Iframe</title>
 </head>
 <body>
+  <iframe src="" name="banner" id="banner" frameborder="0"></iframe>
   <!-- tag <iframe>
 Tag dinâmica de quadros.
 —
 Permite a gente inserir uma janela dentro de outra janela. -->
 
-  <iframe src="formulariop6.html" frameborder="0" sandbox="allow-forms"></iframe>
+<!-- posso criar links -tag<a>- e direcionar a abertura dessa conexão, dessa página, seja interna ou externa para o iframe e não para a janela ou uma nova janela como um todo. -->
 
-  <iframe src="https://www.w3org.com" frameborder="0"></iframe>
+  <a href="formulariop6.html" target="main">formulariop6</a>
+  <a href="https://www.w3.org" target="main">w3c</a>
+  <a href="https://www.cfbcursos.com.br" target="main">cfbcursos</a>
 
-  <iframe src="https://www.cfbcursos.com.br" frameborder="0"></iframe>
+  <iframe src="https://www.alura.com.br" frameborder="0" name="main"></iframe>
 </body>
 </html>

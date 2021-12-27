@@ -1,0 +1,19 @@
+.d1{
+  color: #f00;
+}
+.d2{
+  color: rgb(0, 255, 55);
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3em;
+}
+.c{
+  color: rgb(255, 153, 0);
+}
+.f{
+  color: rgb(0, 255, 242);
+}
+.b{
+  color: rgb(255, 0, 0);
+}
