@@ -1,0 +1,8 @@
+img{
+  width: 50vw;
+  height: 70vh;
+  margin-top: 60px;
+  margin-left: 250px;
+  filter: contrast(100%) brightness(100%) blur(0px) grayscale(0%) invert(0%) opacity(100%) saturate(100%) sepia(100%) hue-rotate(0deg) drop-shadow(10px 20px 5px #000);
+}
+/*drop-shadow: vertical, horizontal, desfoce e cor*/
