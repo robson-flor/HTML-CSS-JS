@@ -1,0 +1,24 @@
+.example{
+  color: #fff;
+  text-align: justify;
+}
+.example::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.example-item{
+display: inline-block;
+ width: 25%;
+ height: 150px;
+}
+.example-item_first{
+  background-color: #faa116;
+}
+.example-item_second{
+  background-color: #57c7c3;
+  margin-left: auto;
+}
+.example-item_third{
+  background-color: #3b97d3;
+}
