@@ -1,0 +1,30 @@
+/* .btn{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(10, 187, 128);
+  border: none;
+} */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #27232370;
+}
+.bola{
+  background-image: url(/img/myName2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid rgba(243, 30, 243, 0.212);
+  cursor: pointer;
+}
+.bola:hover{
+  background-color: #90b34f;
+  border: 10px solid rgba(43, 209, 187, 0.555);
+  }
