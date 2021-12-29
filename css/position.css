@@ -1,0 +1,39 @@
+/*  ----------   Elementos com position-static tem o comportamento padrão de não se mover
+
+position-relative - move o elemento em relação ao contexto ao qual ele foi inserido.
+
+O eixo-z é o eixo que determina qual elemento fica na frente e qual elemento fica atrás   --------*/
+
+
+.elementExample{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+.elementExample_first{
+  background-color: #8e44ad;
+  position: relative;
+  top: 200px;
+
+}
+.elementExample_last{
+  background-color: #c0392b;
+  position: relative;
+}
+/* .elementParagraph{
+}
+article{
+  background-color: yellow;
+  overflow: hidden;
+}
+p {
+  clear: both;
+} */
+.elementExample_isActive{
+  z-index: 1;
+}
