@@ -113,11 +113,11 @@
 //   case "comum":
 //     console.log('usuario comum');
 //     break;
-  
+
 //   case 'gerente':
 //     console.log('usuario gerente');
 //     break;
-  
+
 //   case 'diretor':
 //     console.log('usuario diretor');
 //     break;
@@ -152,17 +152,31 @@ let i = 0;
 //   i++;
 // }while(i < 10)
 
-const pessoa = {
-  nome: 'Jhonatan',
-  idade: 25
-};
+// const pessoa = {
+//   nome: 'Jhonatan',
+//   idade: 25
+// };
 
-for (let chave in pessoa) {
-  console.log(chave,pessoa.nome);
-}
+// for (let chave in pessoa) {
+//   console.log(chave,pessoa.nome);
+// }
 
-const cores = ['Vermelho', 'Azul', 'Verde']
+// const cores = ["Vermelho", "Azul", "Verde"];
 
-for (let indice in cores) {
-  console.log(indice,cores[indice])
-}
+// for (let indice in cores) {
+//   console.log(indice, cores[indice]);
+// }
+
+//for-of
+// for (let cor of cores) {
+//   console.log(cor);
+// }
+
+// const notebooks = ["Acer", "HP", "Macbook", "Dell XPS", "Avell"];
+
+//   for (let notebook of notebooks) {
+//   console.log(notebook);
+// }
+//   for (let i in notebooks) {
+//     console.log(i, notebooks[i]);
+//   }
