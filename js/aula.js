@@ -202,18 +202,39 @@ let i = 0;
 //nao divisivel por 3 ou 5 = entrada
 //nao eh um numero = Nao eh um numero
 
-const resultado = fizzBuzz(11);
-console.log(resultado);
+// const resultado = fizzBuzz(11);
+// console.log(resultado);
 
-function fizzBuzz(entrada) {
-  if (typeof entrada !== 'number')
-    return 'Nao eh um numero';
-    if (entrada % 3 === 0 && entrada % 5 === 0)
-      return 'FizzBuzz';
-  if (entrada % 3 === 0)
-    return 'Fizz';
-  if (entrada % 5 == 0)
-    return 'Buzz';
-  return entrada;
-}
+// function fizzBuzz(entrada) {
+//   if (typeof entrada !== 'number')
+//     return 'Nao eh um numero';
+//     if (entrada % 3 === 0 && entrada % 5 === 0)
+//       return 'FizzBuzz';
+//   if (entrada % 3 === 0)
+//     return 'Fizz';
+//   if (entrada % 5 == 0)
+//     return 'Buzz';
+//   return entrada;
+// }
 
+// MEDIDOR DE VELOCIDADE
+// Velocidade maxima de ateh 70km/h
+//a cada 5km acima do limite voce ganha 1 ponto na carteira
+//Math.Floor() arredonda para o decimal mais proximo
+// caso os pontos sejam maior que 12 -> "Carteira Suspendida"
+
+// verificarVelocidade(130);
+
+// function verificarVelocidade(velocidade) {
+//   const velocidadeMaxima = 70;
+//   const kmPorPonto = 5;
+//   if (velocidade <= velocidadeMaxima)
+//     console.log('ok');
+//   else {
+//     const pontos = Math.floor(((velocidade - velocidadeMaxima) / kmPorPonto));
+//     if (pontos >= 12)
+//       console.log('Carteira Suspensa');
+//     else
+//       console.log('Pontos', pontos);
+//   }
+// }
