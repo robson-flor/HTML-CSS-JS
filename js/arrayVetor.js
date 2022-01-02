@@ -23,14 +23,30 @@ cor[4] = "azul";
 
 document.write(cor[1]+"<br><br>");
 
-var itens = ["faca", "Pederneira", "Corda", "Lanterna", "Luvas", "Chave de fenda", "Arama"];
+// var itens = ["faca", "Pederneira", "Corda", "Lanterna", "Luvas", "Chave de fenda", "Arama"];
+
+
 var mochila = [];
 
 // mochila.push(itens[2]);
-mochila.push(5);
-mochila.push(0);
-mochila.push(3);
+mochila.push("Faca");
+mochila.push("Corda");
+mochila.push("Pederneira");
+mochila.push("Chave");
+mochila.push("Lanterna");
+mochila.push("Pedra");
 
-document.write(itens[mochila[0]]+"<br>");
-document.write(itens[mochila[1]]+"<br>");
-document.write(itens[mochila[2]]+"<br>");
+mochila.pop();
+
+mochila.shift();
+
+mochila.splice(1,1);
+
+document.write(mochila[0]+"<br>");
+document.write(mochila[1]+"<br>");
+document.write(mochila[2]+"<br>");
+document.write(mochila[3]+"<br>");
+document.write(mochila[4]+"<br>");
+document.write(mochila[5]+"<br>");
+
+
