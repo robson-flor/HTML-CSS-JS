@@ -13,6 +13,15 @@ while (num--) {
   document.write("Robson <br>");
 }
 
+num = 0;
+while (num < 10) {
+  document.write("meu p<br>")
+  num++;
+}
+
+
+
+
 document.write("<hr>");
 
 num = true;
