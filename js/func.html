@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funções</title>
+  <script>
+    // passando array pra dentro da função
+
+    var numeros = new Array(10,2,8,50,445);
+    function media(nums) {
+      var tam = nums.length;
+      var soma = 0;
+      for (var i = 0; i < tam; i++) {
+        soma += nums[i];
+      }
+      return Math.round(soma / tam);
+    }
+    document.write(media(numeros));
+
+
+    // função com retorno de valor
+
+    // function soma2(n1a, n2a) {
+    //   return n1a + n2a;
+    // }
+    // var resa = soma2(2,2)
+    // document.write(resa+"<br><br>")
+
+
+// xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+//     function soma(n1, n2) {
+//       var res = n1 + n2;
+//       document.write(res + "<br>");
+//     }
+
+//     soma(5, 2);
+//     soma(10, 20);
+//     soma(0, 1);
+// // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//     function escreve() {
+//       document.write("<br>Curso de JavaScript - CFB Cursos");
+//     }
+//     escreve();
+
+  </script>
+</head>
+
+<body>
+  <h2>Criando suas próprias funções</h2>
+</body>
+
+</html>
