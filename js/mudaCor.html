@@ -18,17 +18,11 @@
   </style>
 
   <script>
-    function msg(){
-      alert("Evento keydown adicionado");
-    }
-    function cor(obj,cor){
-      obj.style.backgroundColor=cor;
-    }
 
     var px=0;
     var py=0;
+    var obj;
     function move() {
-        var obj = document.getElementById("dv1");
         var tecla = event.keyCode;
         //37= seta esquerda - 38 seta cima - 39 seta direita - 40 seta baixo
         if (tecla == 37) {
@@ -44,24 +38,27 @@
           py += 10;
           obj.style.top = py + "px"
         } else if (tecla == 13) {
+          obj.style.backgroundColor="#fff";
           alert("Evento keydown Removido");
-          obj.addEventListener("keydown",cor(obj,"#fff"))
+          document.removeEventListener("keydown",move);
           
-          document.removeEventListener("keydown", move);
         }
         
       }
       
-    function addEventos(){
-      var obj=document.getElementById("dv1")
-      obj.addEventListener("click",msg);
-      obj.addEventListener("click",function(event){
-        cor(obj,"#f00")
-      })
+      function addClique(){
+        document.addEventListener("keydown",move);
+        obj.style.backgroundColor="#f00";
+        alert("Evento keydown iniciado. Use as setas para se movimentar");
+      }
 
-    }
-    window.addEventListener("load",addEventos);
-    document.addEventListener("keydown", move);
+      function iniciar(){
+        obj=document.getElementById("dv1");
+        obj.addEventListener("click",addClique);
+        
+      }
+
+      window.addEventListener("load",iniciar);
   </script>
 </head>
 
