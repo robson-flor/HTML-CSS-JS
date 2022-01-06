@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mudaCor</title>
+  <style>
+    #dv1{
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      background-color: #fff;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  </style>
+
+  <script>
+    function msg(){
+      alert("Evento keydown adicionado");
+    }
+    function cor(obj,cor){
+      obj.style.backgroundColor=cor;
+    }
+
+    var px=0;
+    var py=0;
+    function move() {
+        var obj = document.getElementById("dv1");
+        var tecla = event.keyCode;
+        //37= seta esquerda - 38 seta cima - 39 seta direita - 40 seta baixo
+        if (tecla == 37) {
+          px -= 10;
+          obj.style.left = px + "px";
+        } else if (tecla == 38) {
+          py -= 10;
+          obj.style.top = py + "px"
+        } else if (tecla == 39) {
+          px += 10;
+          obj.style.left = px + "px"
+        } else if (tecla == 40) {
+          py += 10;
+          obj.style.top = py + "px"
+        } else if (tecla == 13) {
+          alert("Evento keydown Removido");
+          obj.addEventListener("keydown",cor(obj,"#fff"))
+          
+          document.removeEventListener("keydown", move);
+        }
+        
+      }
+      
+    function addEventos(){
+      var obj=document.getElementById("dv1")
+      obj.addEventListener("click",msg);
+      obj.addEventListener("click",function(event){
+        cor(obj,"#f00")
+      })
+
+    }
+    window.addEventListener("load",addEventos);
+    document.addEventListener("keydown", move);
+  </script>
+</head>
+
+<body>
+  <div id=dv1></div>
+</body>
+</html>
